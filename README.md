@@ -82,3 +82,13 @@ The database and Glitch project seem to be working however, it keeps timing out 
 
 
 ![Alt Text](img/PLcc8aT.png)
+
+
+<table>
+  <tr>
+    <td><img src="img/a8b5HGn.png" alt="Image 1" width="200"/></td>
+  </tr>
+  <tr>
+  <td><img src="img/MenStDd.png" alt="Image 2" width="200"/></td>
+  </tr>
+</table>
