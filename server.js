@@ -12,13 +12,14 @@ const app = express();
 console.log(process.env.DATABASE_URI); 
 
 // Middleware setup
-
+app.use(express.static('public')); // Serve static files - HTML, CSS, JS /index.html
 
 // Enable cross-origin resource sharing
 app.use(cors());
 
-// Database setup
+app.use(express.json());
 
+// Database setup
 
 // Connect to MongoDB Atlas
 async function connectDB() {
@@ -97,6 +98,10 @@ app.use('/states', states);
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
+});
+
+app.use((req, res) => {
+    res.status(404).json({ error: '404 Not Found' });
 });
 
 // Server setup
