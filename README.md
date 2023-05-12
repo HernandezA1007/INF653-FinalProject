@@ -64,3 +64,19 @@ Checklist
 - [x] Added fun facts to some states
 - [x] Test all API endpoints with Postman
 - [x] Deploy project to Glitch.com
+
+https://beaded-adventurous-ocean.glitch.me/
+
+<table>
+  <tr>
+    <td><img src="img/75XLwqF.png" alt="Image 1" width="200"/></td>
+    <td><img src="img/G9cTVdT.png" alt="Image 2" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="img/kUhn3C0.png" alt="Image 3" width="200"/></td>
+    <td><img src="img/kvoq8pz.png" alt="Image 4" width="200"/></td>
+  </tr>
+</table>
+
+
+![Alt Text](img/PLcc8aT.png)
