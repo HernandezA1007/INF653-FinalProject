@@ -166,7 +166,10 @@ exports.addFunFact = async (req, res) => {
         }
 
         const stateCode = req.params.stateCode.toUpperCase();
-        const state = await State.findOne({ stateCode });
+        // const state = await State.findOne({ stateCode });
+        // const state = await State.findOne({ code: stateCode });
+        const state = await State.findOne({ stateCode: stateCode });
+
 
         if (!state) {
             return res.status(404).json({ message: "State not found." });

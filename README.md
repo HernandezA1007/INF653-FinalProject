@@ -67,6 +67,8 @@ Checklist
 
 https://beaded-adventurous-ocean.glitch.me/
 
+The database and Glitch project seem to be working however, it keeps timing out or buffering for too long? It also does keep looping on "Starting" and "Preparing" for some reason. I am using the free version of Glitch and the MongoDB Atlas free tier. Here are some screenshots.
+
 <table>
   <tr>
     <td><img src="img/75XLwqF.png" alt="Image 1" width="200"/></td>
